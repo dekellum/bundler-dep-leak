@@ -1,0 +1,7 @@
+# -*- ruby -*-
+
+require 'rubygems'
+require 'bundler/gem_tasks'
+
+desc "No-op"
+task :test

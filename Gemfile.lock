@@ -1,0 +1,33 @@
+PATH
+  remote: sub_a
+  specs:
+    sub_a (0.0.1)
+
+PATH
+  remote: sub_b
+  specs:
+    sub_b (0.0.1)
+      sub_a (~> 0.0.1)
+
+PATH
+  remote: sub_c
+  specs:
+    sub_c (0.0.1)
+      hashie (= 1.1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    hashie (1.1.0)
+    minitest (2.11.1)
+    rake (0.9.2.2)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  minitest (= 2.11.1)
+  rake (~> 0.9.2)
+  sub_a!
+  sub_b!
+  sub_c!
