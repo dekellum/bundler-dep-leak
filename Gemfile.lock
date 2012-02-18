@@ -20,14 +20,12 @@ GEM
   specs:
     hashie (1.1.0)
     minitest (2.11.1)
-    rake (0.9.2.2)
 
 PLATFORMS
   java
 
 DEPENDENCIES
   minitest (= 2.11.1)
-  rake (~> 0.9.2)
   sub_a!
   sub_b!
   sub_c!
