@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    sub_b (0.0.1)
+      sub_a (~> 0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    sub_a (0.0.1)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  sub_b!
